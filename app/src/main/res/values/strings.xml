@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Overlay Animation</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-
+  <string name="app_name">Screen Animation</string>
+  <string name="primary_screen_title">This is the primary view</string>
+  <string name="secondary_screen_title">This is a secondary view</string>
 </resources>
