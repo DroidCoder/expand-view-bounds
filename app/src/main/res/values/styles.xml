@@ -1,0 +1,64 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/app_primary</item>
+    <item name="colorPrimaryDark">@color/app_primary_dark</item>
+    <item name="colorAccent">@color/app_assent</item>
+
+    <item name="android:textViewStyle">@style/TextBody</item>
+    <item name="android:buttonStyle">@style/AppButton</item>
+
+  </style>
+
+
+  <!-- Text Styles -->
+  <style name="TextBody">
+    <item name="android:textColor">@color/text_body</item>
+    <item name="android:textSize">@dimen/text_body</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:textColorHint">@color/text_hint</item>
+  </style>
+
+  <style name="TextTitle" parent="TextBody">
+    <item name="android:textColor">@color/text_title</item>
+    <item name="android:textSize">@dimen/text_title</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="TextDetails" parent="TextBody">
+    <item name="android:textColor">@color/text_details</item>
+    <item name="android:textSize">@dimen/text_details</item>
+  </style>
+
+  <style name="TextBodyLight" parent="TextBody">
+    <item name="android:textColor">@color/text_body_light</item>
+    <item name="android:textColorHint">@color/text_hint_light</item>
+  </style>
+
+  <style name="TextTitleLight" parent="TextTitle">
+    <item name="android:textColor">@color/text_title_light</item>
+    <item name="android:textColorHint">@color/text_hint_light</item>
+  </style>
+
+  <style name="TextDetailsLight" parent="TextDetails">
+    <item name="android:textColor">@color/text_details_light</item>
+    <item name="android:textColorHint">@color/text_hint_light</item>
+  </style>
+
+  <style name="TextActionBar" parent="TextTitleLight">
+    <item name="android:gravity">center_vertical|left</item>
+  </style>
+
+
+  <!-- Button Styles -->
+  <style name="AppButton" parent="android:style/Widget.Button">
+    <item name="android:textSize">@dimen/text_title</item>
+    <item name="android:textColor">@color/text_title_light</item>
+  </style>
+
+  <style name="FabButton" parent="AppButton">
+    <item name="android:background">@drawable/button_fab</item>
+  </style>
+
+</resources>
