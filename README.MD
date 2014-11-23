@@ -1,6 +1,6 @@
 #Expand view animation
 
-A quick implementation "expand view bounds" animation for android to achieve the below effect.
+A lightweight implementation "expand view bounds" animation for android to achieve the below effect.
 
 ![screencast](./screencast.gif)
 
