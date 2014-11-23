@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <string name="app_name">Screen Animation</string>
+  <string name="app_name">Expand Bounds</string>
   <string name="primary_screen_title">This is the primary view</string>
   <string name="secondary_screen_title">This is a secondary view</string>
 </resources>

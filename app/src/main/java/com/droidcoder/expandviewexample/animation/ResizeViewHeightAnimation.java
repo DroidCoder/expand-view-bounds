@@ -1,4 +1,4 @@
-package com.droidcoder.overlayanimation.animation;
+package com.droidcoder.expandviewexample.animation;
 
 import android.view.View;
 import android.view.animation.Animation;

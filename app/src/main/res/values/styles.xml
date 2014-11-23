@@ -58,6 +58,7 @@
   </style>
 
   <style name="FabButton" parent="AppButton">
+    <item name="android:gravity">center</item>
     <item name="android:background">@drawable/button_fab</item>
   </style>
 

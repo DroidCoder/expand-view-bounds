@@ -1,4 +1,4 @@
-package com.droidcoder.overlayanimation;
+package com.droidcoder.expandviewexample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

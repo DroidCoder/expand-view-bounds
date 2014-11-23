@@ -1,4 +1,4 @@
-package com.droidcoder.overlayanimation.activity;
+package com.droidcoder.expandviewexample.activity;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.inputmethod.InputMethodManager;
-import com.droidcoder.overlayanimation.R;
-import com.droidcoder.overlayanimation.animation.ResizeViewHeightAnimation;
+import com.droidcoder.expandviewexample.R;
+import com.droidcoder.expandviewexample.animation.ResizeViewHeightAnimation;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -36,9 +36,9 @@ public class MainActivity extends ActionBarActivity {
     }
   }
 
-  private void SwitchSecondaryViewVisibility(int overlaySize, int rotation, int duration) {
+  private void SwitchSecondaryViewVisibility(int targetSize, int rotation, int duration) {
     profileButton.animate().rotationBy(rotation).setDuration(duration).start();
-    Animation animation = new ResizeViewHeightAnimation(secondaryScreen, overlaySize);
+    Animation animation = new ResizeViewHeightAnimation(secondaryScreen, targetSize);
     animation.setDuration(duration);
     secondaryScreen.startAnimation(animation);
   }
