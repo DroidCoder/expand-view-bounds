@@ -12,7 +12,6 @@ import com.droidcoder.overlayanimation.animation.ResizeViewHeightAnimation;
 
 public class MainActivity extends ActionBarActivity {
 
-  private View primaryScreen;
   private View secondaryScreen;
   private View profileButton;
 
@@ -20,7 +19,6 @@ public class MainActivity extends ActionBarActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-    primaryScreen = findViewById(R.id.primary_layout);
     secondaryScreen = findViewById(R.id.secondary_layout);
     profileButton = findViewById(R.id.fab_button);
     profileButton.setOnClickListener(new onFabButtonClick());

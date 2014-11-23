@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!-- App Theme Colors -->
-  <color name="app_primary">#3F51B5</color>
-  <color name="app_primary_dark">#283593</color>
-  <color name="app_assent">#673AB7</color>
-  <color name="app_assent_dark">#6A1B9A</color>
-  <color name="app_bg">#ccc</color>
+  <color name="app_primary">#673AB7</color>
+  <color name="app_primary_light">#673AB7</color>
+  <color name="app_primary_dark">#6200EA</color>
+  <color name="app_assent">#512DA8</color>
+  <color name="app_assent_light">#B39DDB</color>
+  <color name="app_assent_dark">#311B92</color>
+  <color name="app_bg">#EDE7F6</color>
 
   <!-- Text colors -->
   <color name="text_title">#000000</color>
