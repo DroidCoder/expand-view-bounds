@@ -1,3 +1,4 @@
+![Analytics](https://ga-beacon.appspot.com/UA-63373429-3/expand-view-bounds/readme)
 #Expand view animation
 
 A lightweight implementation "expand view bounds" animation for android to achieve the below effect.
